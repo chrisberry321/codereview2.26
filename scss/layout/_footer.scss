@@ -1,0 +1,29 @@
+footer {
+  background-color: $color-sec;
+  text-align: center;
+  height: 400px;
+  p{
+    font-size: .8em;
+    padding: 0 10px;
+    margin-top: 4px;
+  }
+  img{
+    margin-top: 50px;
+    border-radius: 100%;
+    height: 120px;
+    background-position: center;
+  }
+  ul {
+    list-style-type: none;
+    li{
+      @extend %content;
+    }
+  }
+  a {
+     color: $color-border-dark;
+     margin: 10px;
+   &:hover {
+     color: #0d0d0d;
+   }
+  }
+}

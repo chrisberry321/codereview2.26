@@ -1,0 +1,27 @@
+.content {
+  h2 {
+    display: none;
+    @media #{$brk-narrow} {
+      margin: 1px 0;
+      padding-left: 15px;
+      font-family: $stack-poiret-one;
+      display: block;
+    }
+  }
+  img {
+  width: 100%;
+  max-height: 100%;
+  }
+  h3{
+    @extend %content;
+    font-weight: bold;
+  }
+  p {
+    display: none;
+    @media #{$brk-narrow} {
+      display: block;
+      padding: 2 20px;
+      margin: 2px 10px 30px;
+    }
+  }
+}
