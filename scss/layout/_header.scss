@@ -1,11 +1,11 @@
 header {
   max-width: 1080px;
-  height: 200px;
+  height: 5%;
   h1{
     text-align: center;
     font-family: $stack-alfa-slab;
     color: $color-border-dark;
-    font-weight: bold;
+    font-size: 2.5em;
   }
   ul{
      list-style-type: none;
@@ -15,5 +15,14 @@ header {
       font-size: 30px;
       padding: 5px;
     }
+  }
+}
+
+header {
+  a {
+     color: $color-border-dark;
+   &:hover {
+     color: #0d0d0d;
+   }
   }
 }
