@@ -1,52 +1,11 @@
 .blogEntry2, .blogEntry3, .blogEntry4, .blogEntry5 {
   @media #{$brk-medium} {
-    width: 22vw;
-    height: 500px;
-    float: left;
-    margin: 10px;
-    background-color: $color-sec;
-    img {
-      width: 96%;
-      display: block;
-      margin-left: auto;
-      margin-right: auto
-    }
-    h3{
-      font-size: 1.2em;
-      text-align: left;
-      margin-left: 10px;
-    }
-    p{
-      text-overflow: none;
-      padding: 0 10px;
-      margin: 5px;
-    }
+    @include container-vertical (22vw, 500px);
   }
 }
 
 .blogEntry9, .blogEntry10, .blogEntry11,{
   @media #{$brk-medium} {
-    width: 30vw;
-    height: 390px;
-    float: left;
-    margin: 10px;
-    background-color: $color-sec;
-    img {
-      width: 96%;
-      display: block;
-      margin-left: auto;
-      margin-right: auto
-    }
-    h3{
-      font-size: 1.2em;
-      text-align: left;
-      margin-left: 10px;
-    }
-    p{
-      text-overflow: none;
-      padding: 0 10px;
-      margin: 5px;
-    }
+    @include container-vertical (30vw, 390px);
   }
-
 }

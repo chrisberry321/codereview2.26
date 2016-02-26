@@ -76,6 +76,20 @@ footer button {
       text-overflow: none;
       padding: 0 10px;
       margin: 5px; } }
+  @media (min-width: 980px) and (min-width: 1240px) {
+    .blogEntry2, .blogEntry3, .blogEntry4, .blogEntry5 {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      float: none; }
+      .blogEntry2 img, .blogEntry3 img, .blogEntry4 img, .blogEntry5 img {
+        width: 100%;
+        max-height: 100%; }
+      .blogEntry2 h3, .blogEntry3 h3, .blogEntry4 h3, .blogEntry5 h3 {
+        margin: 0 5vw 5px; }
+      .blogEntry2 p, .blogEntry3 p, .blogEntry4 p, .blogEntry5 p {
+        padding: 2 20px;
+        margin: 2px 5vw 45px; } }
 
 @media (min-width: 980px) {
   .blogEntry9, .blogEntry10, .blogEntry11 {
@@ -97,6 +111,20 @@ footer button {
       text-overflow: none;
       padding: 0 10px;
       margin: 5px; } }
+  @media (min-width: 980px) and (min-width: 1240px) {
+    .blogEntry9, .blogEntry10, .blogEntry11 {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      float: none; }
+      .blogEntry9 img, .blogEntry10 img, .blogEntry11 img {
+        width: 100%;
+        max-height: 100%; }
+      .blogEntry9 h3, .blogEntry10 h3, .blogEntry11 h3 {
+        margin: 0 5vw 5px; }
+      .blogEntry9 p, .blogEntry10 p, .blogEntry11 p {
+        padding: 2 20px;
+        margin: 2px 5vw 45px; } }
 
 footer {
   background-color: #F6F6F6;
