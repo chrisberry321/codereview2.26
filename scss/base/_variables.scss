@@ -1,0 +1,24 @@
+//color variables//
+$white: #fff;
+$mild-grey: #F6F6F6;
+$dark-grey: #222222
+$regent-st-blue: #add8e6;
+
+
+//functional color variables//
+
+$color-prim: $white;
+$color-sec: $mild-grey;
+$color-border-dark: $dark-grey;
+
+
+
+//font stack
+
+$stack-poiret-one: font-family: 'Poiret One', cursive;
+
+//border radius//
+
+//Media query breakpoints//
+$brk-narrow: "(max-width: 640px)";
+$brk-wide: "(max-width: 980px)";
