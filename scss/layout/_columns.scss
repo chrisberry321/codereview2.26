@@ -6,6 +6,9 @@
       padding-left: 15px;
       font-family: $stack-poiret-one;
       display: block;
+      @media #{$brk-wide} {
+        display: none;
+      }
     }
   }
   img {
