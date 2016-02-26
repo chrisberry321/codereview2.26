@@ -13,15 +13,19 @@
   max-height: 100%;
   }
   h3{
-    @extend %content;
-    font-weight: bold;
+    font-family:$stack-poiret-one;
+    font-size: 1.5em;
+    margin: 0 5vw 25px;
+    @media #{$brk-narrow} {
+      margin-bottom: 5px;
+    }
   }
   p {
     display: none;
     @media #{$brk-narrow} {
       display: block;
       padding: 2 20px;
-      margin: 2px 10px 30px;
+      margin: 2px 5vw 45px;
     }
   }
 }

@@ -19,11 +19,11 @@ footer {
       @extend %content;
     }
   }
-  a {
+  i {
      color: $color-border-dark;
      margin: 10px;
    &:hover {
-     color: #0d0d0d;
+     color: $light-black;
    }
   }
 }

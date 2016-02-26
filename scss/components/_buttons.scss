@@ -1,0 +1,6 @@
+footer {
+  button {
+  @include button(shiny, $regent-st-blue);
+  margin-left: 2px;
+  }
+}

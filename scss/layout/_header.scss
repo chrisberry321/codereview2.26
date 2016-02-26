@@ -17,10 +17,10 @@ header {
 }
 
 header {
-  a {
-     color: $color-border-dark;
+  i {
+     color: $icon-grey;
    &:hover {
-     color: #0d0d0d;
+     color: $light-black;
    }
   }
 }

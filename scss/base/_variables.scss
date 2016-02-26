@@ -2,6 +2,8 @@
 $white: #fff;
 $mild-grey: #F6F6F6;
 $dark-grey: #222222;
+$icon-grey: #949494;
+$light-black: #030303;
 $regent-st-blue: #add8e6;
 
 
@@ -10,6 +12,7 @@ $regent-st-blue: #add8e6;
 $color-prim: $white;
 $color-sec: $mild-grey;
 $color-border-dark: $dark-grey;
+$color-hover: $light-black;
 
 
 
@@ -22,4 +25,5 @@ $stack-alfa-slab: 'Alfa Slab One', cursive, $stack-sans-serif;
 
 //Media query breakpoints//
 $brk-narrow: "(min-width: 640px)";
-$brk-wide: "(max-width: 980px)";
+$brk-medium: "(min-width: 980px)";
+$brk-wide: "(min-width: 1240px)";
