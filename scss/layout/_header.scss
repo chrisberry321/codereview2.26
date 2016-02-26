@@ -1,0 +1,19 @@
+header {
+  max-width: 1080px;
+  height: 200px;
+  h1{
+    text-align: center;
+    font-family: $stack-alfa-slab;
+    color: $color-border-dark;
+    font-weight: bold;
+  }
+  ul{
+     list-style-type: none;
+     text-align: center;
+    li{
+      display: inline;
+      font-size: 30px;
+      padding: 5px;
+    }
+  }
+}

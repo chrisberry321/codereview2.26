@@ -1,0 +1,21 @@
+/* Base Styles -------------------- */
+* {
+  box-sizing: border-box; }
+
+header {
+  max-width: 1080px;
+  height: 200px; }
+  header h1 {
+    text-align: center;
+    font-family: "Alfa Slab One", cursive, Helvetica, Arial, sans-serif;
+    color: #222222;
+    font-weight: bold; }
+  header ul {
+    list-style-type: none;
+    text-align: center; }
+    header ul li {
+      display: inline;
+      font-size: 30px;
+      padding: 5px; }
+
+/*# sourceMappingURL=apapplication.css.map */
